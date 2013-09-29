@@ -53,7 +53,7 @@ var write = function (path, data) {
 
 // Reset `_data`, optionally to another default value
 var reset = function (data) {
-    _data = typeof data === 'undefined' ? {} : data;
+    _data = typeof data === 'undefined' ? {} : data;
 };
 
 // Exposed object
