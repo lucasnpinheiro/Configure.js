@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ankr/Configure.js.png)](https://travis-ci.org/ankr/Configure.js)
+
 Configure.js
 ============
 
