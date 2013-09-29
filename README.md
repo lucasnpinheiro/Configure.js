@@ -3,7 +3,7 @@
 Configure.js
 ============
 
-Javascript object that behaves somewhat similar to CakePHPs `Configure` class;
+Javascript object that behaves somewhat similar to CakePHPs `Configure` class, in terms of the `read` and `write` methods.
 http://book.cakephp.org/2.0/en/development/configuration.html#configure-class
 https://github.com/cakephp/cakephp/blob/master/lib/Cake/Core/Configure.php
 
