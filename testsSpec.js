@@ -27,7 +27,7 @@ describe('Configure', function () {
     it('will set and get simple paths', function () {
         expect(Configure.read('_zero')).toBe(0);
 
-        expect(Configure.read('Non.Existing.Property')).toBe(null);
+        expect(Configure.read('Non.Existing.Property')).toBe(undefined);
         expect(Configure.read('Existing.Property')).toBe('foo');
 
         expect(Configure.write('Non.Existing.Property', 'squirrel')).toBe(true);
@@ -67,6 +67,6 @@ describe('Configure', function () {
     });
 
     it('path that only exists some of the way. An where the last property is not an object.', function () {
-        expect(Configure.read('Existing.Property.But.Deeper')).toBe(null);
+        expect(Configure.read('Existing.Property.But.Deeper')).toBe(undefined);
     });
 });

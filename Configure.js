@@ -19,7 +19,7 @@ var read = function (path) {
         p = path.shift();
 
         if (typeof o[p] === 'undefined') {
-            return null;
+            return undefined;
         }
 
         r = o[p];
